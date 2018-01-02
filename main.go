@@ -34,9 +34,24 @@ What does 'package main' mean?
 
 What does 'import "fmt"' mean?
 
+	import is used to give a file access to all the code and functionality within another file
+	fmt is a standard lib package included with go by default
+		fmt -> format
+		used to print out info -> to terminal, usually for debugging
+	we can use import to pull in standard libs OR reusable packages created by ourselves or other engineers working on the project
+
+
 What's that 'func' thing?
 
+	declare functions with func keyword-> name of func -> parens containing arguments -> curly braces containing body
+
 How is the main.go file organized?
+
+	package [main/any other name]
+
+	import "fmt" - list of imports or other packages that we need
+
+	body of file - function declarations - go do the thing.
 
 
 
